@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--login page-->
+<html lang="en">
+  <head>
+    <title>My invoice project</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>A JavaScript invoice project</h1>
+    <p>This is a log in page</p>
+
+    <!--
+    <div id="login-error-msg-holder">
+    <p id="login-error-msg">
+    Invalid username <span id="error-msg-second-line">and/or password</span>
+    </p>
+    </div>
+    -->
+    <form id="login-form">
+      <input
+        type="text"
+        name="username"
+        id="username-field"
+        class="login-form-field"
+        placeholder="Username"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password-field"
+        class="login-form-field"
+        placeholder="Password"
+      />
+      <input type="submit" value="Login" id="login-form-submit" />
+    </form>
+
+    <div id="app"></div>
+    <script src="login.js"></script>
+  </body>
+</html>
+
+<!--<form>
+  <div class="Login">
+    
+    <label for="userName">Username</label>
+    <input type="text" placeholder="Enter UserName" name="userName" required />
+    <br />
+    <br />
+    <label for="password">Password </label>
+    <input type="text" placeholder="Enter Password" name=" Password" required />
+    <br />
+    <br />
+    <button type="submit">Login</button>
+  </div>
+</form>-->
